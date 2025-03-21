@@ -1,0 +1,11 @@
+struct plecak {
+        int size = 50;
+        special_item* plecak_special_items = (special_item*)malloc(sizeof(int) * size);
+        armour* plecak_special_items = (armour*)malloc(sizeof(int) * size);
+        weapon miecz;
+        int weight;
+
+        
+
+
+};
